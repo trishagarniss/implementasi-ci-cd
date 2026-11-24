@@ -48,20 +48,3 @@ Workflow `.github/workflows/ingest.yaml` berjalan pada:
 - `workflow_dispatch` -> tombol *Run workflow* untuk uji manual
 
 Job `ingest` tidak berjalan pada `pull_request` karena secrets tidak tersedia untuk PR dari fork.
-
-## 5. Daftar screenshot untuk laporan
-
-1. Folder proyek di VSCode
-2. Kode `ingest.py`
-3. Hasil `python -m pytest -q`
-4. Hasil `python ingest.py ... --no-upload` di terminal
-5. `git status` dan `git log --graph --oneline`
-6. Branch `feature/opensky-ingestion`
-7. Pull Request ke `main`
-8. PR selesai di-merge
-9. GitHub Secrets
-10. workflow `ingest.yaml` di GitHub
-11. Tab Actions sukses
-12. Log eksekusi workflow
-13. Container `bronze` di Azure Portal
-14. Blob hasil ingestion / jumlah baris
