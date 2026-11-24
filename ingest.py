@@ -236,7 +236,7 @@ def upload_to_azure(
     local_path: Path,
     container_name: str,
     connection_string: str,
-    prefix: str = "bronze/opensky",
+    prefix: str = "opensky",
 ) -> str:
     """Upload the JSONL file to an Azure Blob Storage container."""
     try:
