@@ -34,7 +34,7 @@ Bbox Asia Tenggara: latitude -11 s/d 20, longitude 95 s/d 141. Luas ini termasuk
 
 ## 4. GitHub Actions
 
-Tambahkan Repository Secrets:
+Tambahkan Repository Secrets: 
 
 - `OPENSKY_CLIENT_ID`
 - `OPENSKY_CLIENT_SECRET`
